@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <title>FoodBank Lifestyle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fffdf8;
+        }
+        header {
+            background: linear-gradient(90deg, #FF5722, #FFC107);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        .product {
+            width: 180px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .product img {
+            max-width: 100%;
+            height: 120px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+        .product p {
+            margin: 5px 0;
+            font-size: 1em;
+        }
+        .price {
+            color: #e91e63;
+            font-weight: bold;
+        }
+        .whatsapp-btn {
+            background-color: #25D366;
+            color: white;
+            padding: 8px 10px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 8px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        .map {
+            margin-top: 20px;
+        }
+        footer {
+            background: #eee;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>FoodBank Lifestyle</h1>
+    <p>Eat, wear, shop – all in one place!</p>
+</header>
+
+<section>
+    <h2>Fashion (ফ্যাশন)</h2>
+    <div class="products">
+        <div class="product">
+            <img src="https://i.imgur.com/Qh6ZdHb.png" alt="T-shirt">
+            <p>টি-শার্ট (T-shirt)</p>
+            <p class="price">৳150</p>
+            <a class="whatsapp-btn" href="https://wa.me/8801322685064">WhatsApp Order</a>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/dyP2sJV.png" alt="Pants">
+            <p>প্যান্ট (Pants)</p>
+            <p class="price">৳400</p>
+            <a class="whatsapp-btn" href="https://wa.me/8801322685064">WhatsApp Order</a>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Grocery (মুদি)</h2>
+    <div class="products">
+        <div class="product">
+            <img src="https://i.imgur.com/jlToIbq.png" alt="Rice">
+            <p>চাল (Rice)</p>
+            <p class="price">৳50</p>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/vcxF0bs.png" alt="Lentils">
+            <p>ডাল (Lentils)</p>
+            <p class="price">৳120</p>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/gZyQFiY.png" alt="Oil">
+            <p>তেল (Cooking Oil)</p>
+            <p class="price">৳180</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>FoodBank Restaurant – Coming Soon!</h2>
+    <p>Delicious meals, coming right to your neighborhood.</p>
+    <div class="products">
+        <div class="product">
+            <img src="https://i.imgur.com/FIHGzB4.png" alt="Biriyani">
+            <p>বিরিয়ানি (Biriyani)</p>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/TDlOBrD.png" alt="Burger">
+            <p>বার্গার (Burger)</p>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/m3xXfi7.png" alt="Kebab">
+            <p>কাবাব (Kebab)</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Fresh Market (কাচাবাজার)</h2>
+    <div class="products">
+        <div class="product">
+            <img src="https://i.imgur.com/gQWTtZJ.png" alt="Onion">
+            <p>পেঁয়াজ (Onion)</p>
+            <p class="price">৳40</p>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/H7HUuXY.png" alt="Garlic">
+            <p>রসুন (Garlic)</p>
+            <p class="price">৳60</p>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/1EfO5om.png" alt="Green Chili">
+            <p>কাঁচামরিচ (Green Chili)</p>
+            <p class="price">৳30</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Packaged Foods (প্যাকেটজাত খাবার)</h2>
+    <div class="products">
+        <div class="product">
+            <img src="https://i.imgur.com/5dnJYk6.png" alt="Biscuits">
+            <p>বিস্কুট (Biscuits)</p>
+            <p class="price">৳25</p>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/MLZAdRx.png" alt="Chocolate">
+            <p>চকলেট (Chocolate)</p>
+            <p class="price">৳40</p>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/Dj5twgL.png" alt="Cake Toast">
+            <p>কেক টোস্ট (Cake Toast)</p>
+            <p class="price">৳30</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Fruits (ফল)</h2>
+    <p>সুস্থ থাকুন, প্রতিদিন ফল খান!</p>
+    <div class="products">
+        <div class="product">
+            <img src="https://i.imgur.com/NZ8mEOO.png" alt="Apple">
+            <p>আপেল (Apple)</p>
+            <p class="price">৳100</p>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/8myNxxG.png" alt="Banana">
+            <p>কলা (Banana)</p>
+            <p class="price">৳30</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Contact (যোগাযোগ)</h2>
+    <p>Pulergat Bazar, Pakundia Road</p>
+    <p>01322685064</p>
+    <a class="whatsapp-btn" href="https://wa.me/8801322685064">Message Us</a>
+    <div class="map">
+        <iframe src="https://www.google.com/maps?q=Pulergat+Bazar+Pakundia+Road&output=embed" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+
+<footer>
+    &copy; 2025 FoodBank Lifestyle. All rights reserved.
+</footer>
+
+</body>
+</html>
